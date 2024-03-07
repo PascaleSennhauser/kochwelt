@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="icon" type="image/x-icon" href="./logo_small.png">
+
+</head>
+
+<body onload="includeHTML()" >
+    <div class="max-width">
+    <div w3-include-html="header.html"></div>
+        <div class="kontakt-seite">
+        <form class="kontaktformular" action="https://formspree.io/f/xnqezpak" method="POST">
+            <h1 class="kontaktform">Kontakt</h1>
+        <p class="kontaktform">Du hast Fragen zu Kochwelt.de, Anregungen oder Anlass zur Kritik?<br> Wir freuen uns über eine Nachricht von dir!
+        </p> <br>
+            <label>
+                <h3>Deine E-mail:</h3>
+                <input class="textarea-email" type="email" name="email" required>
+            </label>
+            <label>
+                <h3>Deine Nachricht:</h3>
+                <textarea name="message" minlenght="1" required></textarea>
+            </label>
+            <button class="button" type="submit">Send</button>
+        </form>
+*
+    </div>
+    <div class="margin-top" w3-include-html="footer.html"></div>
+    </div>
+
+</body>
+
+</html>
