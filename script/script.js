@@ -54,6 +54,9 @@ function underlineCurrentPage() {
     }
     else if (currentPage.includes('impressum.html')) {
         document.getElementById('tab4').classList.add('underline-green');
+    } 
+    else if (currentPage.includes('datenschutz.html')){
+        return;
     } else {
         document.getElementById('tab2').classList.add('underline-green');
     }
