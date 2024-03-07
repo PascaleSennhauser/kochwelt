@@ -13,6 +13,97 @@
     
 </head>
 <body onload="button()">
+    <div class="max-width">
+        <div w3-include-html="header.html"></div>
+        <div class="container0">
+            <div class="container1">
+                <h1 id="recipe">Spaghetti mit Tomatensauce</h1>
+                <img class="salat" src="./img/spaghetti.jpg" alt="">
+                <div class="container2">
+                    <div class="container3">
+                        <img src="./img/icons/clock-regular.svg" alt="">
+                        <p>15 Min</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/brain-solid.svg" alt="">
+                        <p>simpel</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/calendar-alt-regular.svg" alt="">
+                        <p>17.11.2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container4">
+            <div class="label">
+                <label for="eingabe">Zutaten für</label>
+            </div>
+            <input id="eingabe" class="value-input" type="number" value="4" min="1" max="10" required>
+            <input onclick="calculatePortion()" class="button" type="button" for="eingabe" value="Portionen" required>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td><span id="zutat1">100</span> g Spaghetti</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat2">1</span> Tomate(n)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat3">0.5</span> Zwiebeln</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat4">0.5</span> Knoblauchzehe(n)</td>
+                </tr>
+                <tr>
+                    <td>Salz</td>
+                </tr>
+                <tr>
+                    <td>Olivenöl</td>
+                </tr>
+                <tr>
+                    <td>Pfeffer, Paprika, Kräuter</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2 class="zubereitung">Zubereitung</h2>
+
+        <div class="container5">
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>ca 15 Minuten</p>
+            </div>
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>Gesamtzeit ca 15 Minuten</p>
+            </div>
+        </div>
+
+        <div class="container6">
+            <p class="p-grey">
+                Wenn der Salat nicht bereits gerüstet ist, den Salat rüsten und in eine Schüssel geben. Die Tomaten, Gurke, Peperoni und Käse kleinschneiden und dazugeben.
+                Wasser in einer Pfanne zum Kochen bringen und in einer anderen Pfanne das Öl erhitzen. In der Zwischenzeit Tomaten
+                waschen und in in kleine Würfel schneiden. Zwiebeln schälen und in kleine Stücke schneiden. Knoblauch schälen und
+                klein hacken. Das kochende Wasser leicht salzen und die Spaghetti hinzufügen und nach Packungsangabe auf mittlerer
+                Stufe kochen. In die andere Pfanne Tomaten, Zwiebeln und Knoblauch hinzufügen und andünsten. Nach ein paar Minuten
+                etwas Wasser hinzufügen und die Sauce nach Belieben würzen. Das Ganze auf mittlerer Stufe köcheln bis die Spaghetti
+                fertig sind. Die Spaghetti abgiessen und die Tomatensauce mit dem Pürierstab pürieren. Die Sauce über die Spaghetti
+                giessen.
+            </p>
+        </div>
+
+        <div class="container7">
+            <h3>Rezept erstellt von</h3>
+        </div>
+        <div class="container8">
+            <img src="img/profile.png">
+            <h4>Pascale Sennhauser</h4>
+        </div>
+        <div class="margin-top" w3-include-html="footer.html"></div>
+    </div>
 </body>
 </html>
