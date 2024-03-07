@@ -1,5 +1,5 @@
 let salad = [0.25, 0.5, 0.25, 0.25, 50, 1, 1, 1, 0.25];
-let gratin = [];
+let gratin = [80, 0.25, 0.5, 1, 0.5, 0.5, 0.5, 1, 100];
 let spaghetti = [100, 1, 0.5, 0.5];
 let friedRice = [];
 let zutat = [];

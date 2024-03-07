@@ -14,6 +14,101 @@
 </head>
 
 <body onload="button()">
+    <div class="max-width">
+        <div w3-include-html="header.html"></div>
+        <div class="container0">
+            <div class="container1">
+                <h1 id="recipe">Hirse-Gemüse Gratin</h1>
+                <img class="salat" src="./img/gratin.jpg" alt="">
+                <div class="container2">
+                    <div class="container3">
+                        <img src="./img/icons/clock-regular.svg" alt="">
+                        <p>60 Min</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/brain-solid.svg" alt="">
+                        <p>simpel</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/calendar-alt-regular.svg" alt="">
+                        <p>07.03.2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container4">
+            <div class="label">
+                <label for="eingabe">Zutaten für</label>
+            </div>
+            <input id="eingabe" class="value-input" type="number" value="4" min="1" max="10" required>
+            <input onclick="calculatePortion()" class="button" type="button" for="eingabe" value="Portionen" required>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td><span id="zutat1">80g</span> g Hirse</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat2">0.25</span> TL Salz</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat3">0.5</span> Zwiebel(n)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat4">1</span> Karotte(n)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat5">0.5</span> Zucchetti(s)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat6">0.5</span> Peperoni(s)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat7">0.5</span> EL Olivenöl</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat8">1</span> EL Tomatenmark</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat9">100</span> g Mozzarella</td>
+                </tr>
+                <tr>
+                    <td>Gewürze nach Wahl</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2 class="zubereitung">Zubereitung</h2>
+
+        <div class="container5">
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>ca 40 Minuten</p>
+            </div>
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>Gesamtzeit ca 60 Minuten</p>
+            </div>
+        </div>
+
+        <div class="container6">
+            <p class="p-grey">
+                Wasser aufkochen und salzen. Die Hirse dazugeben und ca. 20-30 min auf mittlerer Stufe köcheln lassen. Die Karotten schälen und mit dem anderen Gemüse klein schneiden.
+                Öl in eine Pfanne geben und das Gemüse mit etwas Wasser und Gewürzen ca. 15min dämpfen. Danach eine Gratinform mit etwas Olivenöl ölen, damit der Gratin weniger klebt. Nun die Hirse auf dem Boden verteilen
+                und das Tomatenmark gleichmässig darauf verteilen. Nun das Gemüse darauf verteilen. Den Mozzarella kurz kleinschneiden und darüber verteilen. Den Gratin nach Belieben würzen. Das Ganze für ca. 20 min in den Backofen bis der Käse geschmolzen ist.
+            </p>
+        </div>
+
+        <div class="container7">
+            <h3>Rezept erstellt von</h3>
+        </div>
+        <div class="container8">
+            <img src="img/profile.png">
+            <h4>Pascale Sennhauser</h4>
+        </div>
+        <div class="margin-top" w3-include-html="footer.html"></div>
+    </div>
 </body>
 </html>

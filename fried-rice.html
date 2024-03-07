@@ -14,7 +14,98 @@
 </head>
 
 <body onload="button()">
+    <div class="max-width">
+        <div w3-include-html="header.html"></div>
+        <div class="container0">
+            <div class="container1">
+                <h1 id="recipe">Gemischter Salat</h1>
+                <img class="salat" src="./img/salad.jpg" alt="">
+                <div class="container2">
+                    <div class="container3">
+                        <img src="./img/icons/clock-regular.svg" alt="">
+                        <p>10 Min</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/brain-solid.svg" alt="">
+                        <p>simpel</p>
+                    </div>
+                    <div class="container3">
+                        <img src="./img/icons/calendar-alt-regular.svg" alt="">
+                        <p>28.09.2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container4">
+            <div class="label">
+                <label for="eingabe">Zutaten für</label>
+            </div>
+            <input id="eingabe" class="value-input" type="number" value="4" min="1" max="10" required>
+            <input onclick="calculatePortion()" class="button" type="button" for="eingabe" value="Portionen" required>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td><span id="zutat1">0.25</span> Salatkopf(e) oder Packung(en) Blattsalat nach Wahl</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat2">0.5</span> Tomate(n)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat3">0.25</span> Gurke(n)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat4">0.25</span> rote Peperoni(s)</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat5">50</span> g Schafskäse</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat6">1</span> TL Kernemix</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat7">1</span> EL Leinnöl</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat8">1</span> EL Essig</td>
+                </tr>
+                <tr>
+                    <td><span id="zutat9">0.25</span> EL Salatkräuter, Salz, Pfeffer, Paprika</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2 class="zubereitung">Zubereitung</h2>
+
+        <div class="container5">
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>ca 15 Minuten</p>
+            </div>
+            <div class="container3">
+                <img src="./img/icons/clock-regular.svg" alt="">
+                <p>Gesamtzeit ca 15 Minuten</p>
+            </div>
+        </div>
+
+        <div class="container6">
+            <p class="p-grey">
+                Wenn der Salat nicht bereits gerüstet ist, den Salat rüsten und in eine Schüssel geben. Die Tomaten, Gurke, Peperoni und Käse kleinschneiden und dazugeben.
+                Die Kerne darüberstreuen, sowie Öl, Essig, Kräuter und Gewürze dazugeben. Alles gut vermischen und mit beipsielsweise einem Stück Brot dazu geniessen.
+            </p>
+        </div>
+
+        <div class="container7">
+            <h3>Rezept erstellt von</h3>
+        </div>
+        <div class="container8">
+            <img src="img/profile.png">
+            <h4>Pascale Sennhauser</h4>
+        </div>
+        <div class="margin-top" w3-include-html="footer.html"></div>
+    </div>
 </body>
 
 </html>
