@@ -1,7 +1,7 @@
 let salad = [0.25, 0.5, 0.25, 0.25, 50, 1, 1, 1, 0.25];
 let gratin = [80, 0.25, 0.5, 1, 0.5, 0.5, 0.5, 1, 100];
 let spaghetti = [100, 1, 0.5, 0.5];
-let friedRice = [];
+let friedRice = [60, 0.25, 1, 0.5, 1, 1, 0.5, 1, 1];
 let zutat = [];
 let portion;
 let result = [];
