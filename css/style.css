@@ -36,12 +36,6 @@ header img {
     height: 50px;
 }
 
-@font-face {
-    font-family: 'Raleway';
-    src: url('./fonts/Raleway-VariableFont_wght.ttf') format('ttf'),
-        url('./fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf');
-}
-
 nav {
     display: flex;
     align-items: end;
